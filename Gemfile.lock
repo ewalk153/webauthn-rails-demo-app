@@ -213,6 +213,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.2)
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -277,6 +278,7 @@ DEPENDENCIES
   selenium-webdriver (~> 3.142)
   spring (~> 2.1)
   spring-watcher-listen (~> 2.0)
+  sqlite3
   web-console (~> 4.0)
   webauthn (~> 2.4.0)
   webdrivers (~> 4.1)
@@ -286,4 +288,4 @@ RUBY VERSION
    ruby 2.7.2p137
 
 BUNDLED WITH
-   2.2.11
+   2.2.22
