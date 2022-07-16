@@ -43,3 +43,7 @@ group :test do
 end
 
 gem "sqlite3", "~> 1.4"
+
+gem "uri", "~> 0.11.0"
+
+gem "psych", "< 4.0"
