@@ -9,7 +9,6 @@ gem 'rails', "~> 6.0.0"
 gem "webauthn", "~> 2.4.0"
 
 gem 'bootsnap', '~> 1.4', require: false
-gem 'pg', '~> 1.1'
 gem 'puma', '~> 4.2'
 gem "rollbar", "~> 2.16"
 gem 'sassc-rails', '~> 2.0'
@@ -42,3 +41,5 @@ group :test do
   gem 'selenium-webdriver', '~> 3.142'
   gem 'webdrivers', '~> 4.1'
 end
+
+gem "sqlite3", "~> 1.4"
